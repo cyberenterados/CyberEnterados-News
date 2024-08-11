@@ -77,8 +77,14 @@ aside {
     padding: 15px;
     margin-left: 20px;
     border-radius: 5px;
-    border: 1px solid #ddd;
+    border: 1px solid #028823;
     text-align: center;
+    text-decoration: #026821;
+}
+
+.art-aside{
+    text-align: center;
+    color: #026821;
 }
 
 
