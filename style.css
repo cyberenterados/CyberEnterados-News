@@ -245,6 +245,10 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .aside {
+        display: none; /* Ocultar el aside en pantallas más pequeñas */
+      }
+
 
 }
 
@@ -260,5 +264,9 @@ footer {
     .footer-links .footer-container {
         grid-template-columns: 1fr;
     }
+
+    .aside {
+        display: none; /* Ocultar el aside en pantallas más pequeñas */
+      }
 }
     
