@@ -63,12 +63,14 @@ article {
     padding: 10px;
     border-radius: 5px;
     background: #f9f9f9;
+    
 }
 
 article img {
     width: 300px;
     height: 150px;
     border-radius: 5px;
+    justify-content: center;
 }
 
 aside {
@@ -76,8 +78,7 @@ aside {
     background: #f1f1f1;
     padding: 5px;
     margin-left: 10px;
-    margin-right: 28px;
-    
+    margin-right: 28px;    
     border-radius: 5px;
     border: 1px solid #028823;
     text-align: center;
@@ -90,6 +91,7 @@ aside {
     color: #026821;
     margin: 5px;
     padding: 5px;
+    border: #026821;
 }
 
 
