@@ -334,6 +334,10 @@ hr{
         color: #2d7007;
     }
 
+    .showcase{
+        background: url(img/header-mediaquery.png) no-repeat center center/cover;
+    }
+
     .nav-main ul.nav-menu{
         display: block;
         position: absolute;
@@ -388,6 +392,10 @@ hr{
 @media (max-width:500px) {
     .news-card{
         grid-template-columns: 1fr;
+    }
+
+    .showcase{
+        background: url(img/header-mediaquery.png) no-repeat center center/cover;
     }
 
     .news-card img {
