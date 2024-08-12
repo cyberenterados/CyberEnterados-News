@@ -76,6 +76,11 @@ ul {
     text-align: justify;
 }
 
+.btn-news{
+    background-color: #000;
+    text-decoration-color: #026821;
+}
+
 @media screen and (max-width: 768px) {
     .news-title {
         font-size: 1.5rem;
