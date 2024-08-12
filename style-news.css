@@ -11,9 +11,17 @@ body {
     background-color: #8786b5;
     background-color: #0c0c0c;
     font-size: 16px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;   
 
 }
+
+.body .main{
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+
+}
+
 
 a {
     color: #fff;
@@ -36,8 +44,7 @@ ul {
     padding: 20px;
     background-color: #1e1e1e;
     border-radius: 10px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);    
     flex-direction: center;
     align-items: center;   
 }
@@ -499,6 +506,49 @@ hr{
     
 
 
+/*---------------------------------------------*/
+
+/* Estilos generales para centrar el contenido */
+.post {
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido dentro del contenedor */
+    align-items: center; /* Centra verticalmente el contenido dentro del contenedor */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    padding: 20px; /* Espaciado interno para la sección */
+    margin: 0 auto; /* Asegura que el margen horizontal sea automático para centrar */
+    max-width: 800px; /* Limita el ancho máximo de la sección para mayor legibilidad */
+}
+
+.news-container {
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.image-container {
+    margin-bottom: 20px; /* Añade espacio debajo de la imagen */
+}
+
+.news-title {
+    font-size: 24px; /* Tamaño de fuente para el título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.news-paragraph {
+    font-size: 16px; /* Tamaño de fuente para los párrafos */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+.btn-news a {
+    display: inline-block; /* Muestra el enlace como un botón */
+    padding: 10px 20px; /* Espaciado interno para el botón */
+    background-color: #058626; /* Color de fondo del botón */
+    color: rgb(225, 240, 12); /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn-news a:hover {
+    background-color: #034406; /* Cambia el color de fondo cuando el botón es hovered */
+}
 
 
 
