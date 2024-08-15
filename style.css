@@ -8,21 +8,38 @@
 body {
     margin: 3px;    
     background: #000;
-    color: #fff;
+    color: hsl(123, 96%, 21%);
     background-color: #0c0c0c;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
 }
 
+body h1{
+    text-align: center;
+    color: #026821;
+}
+
+.nav-banner-princ{
+    text-decoration-color: #024a16;
+    color: #024a16;
+}
+
 header {
     background: #333;
-    color: #fff;
+    color: hsl(135, 93%, 23%);
     padding: 10px 0;
 }
 
 header h1 {
     margin: 0;
     text-align: center;
+}
+
+.nav-datetime {
+    font-size: 18px;
+    color: rgb(219, 255, 12);
+    text-align: center;
+    padding: 10px;
 }
 
 nav ul {
@@ -37,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #c2ec06;
     text-decoration: none;
 }
 
@@ -162,21 +179,50 @@ aside {
 
 /*showcase*/
 
-hr{
-    margin: 10px 0;
-}
+
 
 .showcase {
     width: 100%;
     background: red;
     height: 250px;
-    background: url(img/showcase5.png) no-repeat center center/cover;
+    background: url(img/showcasevideo.mp4) no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+}
+
+/*NUEVO SHOW CASE*/
+
+.showcase {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.showcase-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7; /* Para darle un efecto translúcido */
+}
+
+.showcase h1 {
+    color: white;
+    z-index: 1;
 }
 
 
@@ -244,11 +290,9 @@ footer {
 
 @media (max-width:800px) {
 
-    .showcase{
-        background: url(img/proyects.png) no-repeat center center/cover;
-        width: 60%;
-        margin-left: 70px;
-
+    .showcase {
+        height: 200px;
+        padding: 40px;
     }
     
     
@@ -265,10 +309,9 @@ footer {
 
 @media (max-width:500px) {
 
-    .showcase{
-        background: url(img/proyects.png) no-repeat center center/cover;
-        width: 60%;
-        margin-left: 70px;
+    .showcase {
+        height: 150px;
+        padding: 30px;
     }
 
     
@@ -345,7 +388,5 @@ button a {
 button a:hover {
     color: #c7d407;
 }
-
-
 
 
