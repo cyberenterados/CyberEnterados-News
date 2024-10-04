@@ -97,16 +97,26 @@ aside {
     border-radius: 5px;
     border: 1px solid #028823;
     text-align: center;
-    color: #026821;
-    
+    color: #c4eb3a;    
 }
+
+.aside-h1{
+    color: #c4eb3a;
+}
+
 
 .art {
     text-align: center;
-    color: #073a16;
+    color: #ddf194;
     margin: 5px;
     padding: 5px;
     border: #026821;
+    background-color: #000;
+}
+
+.art-img{
+    width: 300px;
+    height: 350px;
 }
 
 
