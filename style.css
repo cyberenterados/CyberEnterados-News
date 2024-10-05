@@ -79,6 +79,23 @@ article {
     border-radius: 5px;
     background: #f9f9f9;
     
+    
+}
+
+.art-h2{
+    justify-content: center;
+}
+
+.art-p{
+    justify-content: center;
+}
+
+.art-btn{
+    justify-content: center; 
+}
+
+.img-art{
+    justify-content: center;
 }
 
 article img {
