@@ -138,6 +138,14 @@ aside {
 
 
 
+.art-video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
 .random-news {
     flex-basis: 100%;
     margin-top: 20px;
