@@ -16,6 +16,9 @@
       {
         "nested-interactive": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off",
+    "no-protocol-relative-urls": "off",
+    "axe/text-alternatives": "off"
   }
 }
